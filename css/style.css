@@ -1,0 +1,57 @@
+header{
+    background-color:greenyellow;
+    padding: 20px 20px;
+    color:white;
+    font-size: 30px;
+}
+.list img{
+    height:300px;
+    width: 300px;
+
+}
+.list{
+    display:flex;
+    justify-content: center;
+}
+.list li{
+    display:flex;
+    flex-direction: column;
+    padding:0 10px;
+    max-width:320px;
+}
+.top h2{
+    text-align: center;
+    font-size:40px;
+    padding:10px 0;
+
+}
+.top span{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(38, 38, 158);
+}
+.profile img{
+    height:300px;
+    width:300px;
+    
+}
+.profile .list{
+    display: flex;
+}
+.profile h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.profile .list p{
+    text-align: center;
+    color:yellow;
+    font-size:30px;
+}
+footer{
+    background:aqua;
+    color:green;
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+ }
